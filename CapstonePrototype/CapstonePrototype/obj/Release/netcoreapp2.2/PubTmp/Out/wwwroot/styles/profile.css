@@ -1,0 +1,14 @@
+.card {
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1234567890",
+    "contact": {
+      "name": "Mumma's Burritos",
+      "email": "info@mummasburritos.ca",
+      "phoneNumber": "(905) 454-7426",
+      "website": "mummasburritos.com",
+      "contactPerson": {
+        "name": "",
+        "email": "",
+        "phoneNumber": ""
+      },
+      "businessOwner": {
+        "name": "",
+        "email": "",
+        "phoneNumber": ""
+      }
+    },
+    "location": {
+      "streetAddress": "373 Steeles Ave W #1",
+      "city": "Brampton",
+      "region": "ON",
+      "postalCode": "L6Y 0P8",
+      "coordinates": {
+        "latitude": 43.657982,
+        "longitude": -79.741584
+      }
+    },
+    "currentProvider": "",
+    "isSaved": false,
+    "isFavorited": false,
+    "isReported": false
+  },
+  {
+    "id": "857626571",
+    "contact": {
+      "name": "Seens Deli & Grill",
+      "email": "info@seensdeliandgrill.ca",
+      "phoneNumber": "(905) 459-1414",
+      "website": "seensdeliandgrill.ca",
+      "contactPerson": {
+        "name": "",
+        "email": "",
+        "phoneNumber": ""
+      },
+      "businessOwner": {
+        "name": "",
+        "email": "",
+        "phoneNumber": ""
+      }
+    },
+    "location": {
+      "streetAddress": "499 Main St S",
+      "city": "Brampton",
+      "region": "ON",
+      "postalCode": "L6Y 1N7",
+      "coordinates": {
+        "latitude": 43.666599,
+        "longitude": -79.739780
+      }
+    },
+    "currentProvider": "",
+    "isSaved": false,
+    "isFavorited": false,
+    "isReported": false
+  }
+]

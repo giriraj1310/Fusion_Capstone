@@ -1,0 +1,93 @@
+﻿body, h1, #error-wrapper {
+    transition: 0.5s;
+}
+
+    body.error,
+    body.error h1 {
+        background-color: firebrick;
+    }
+
+        body.error #error-wrapper {
+            opacity: 1;
+        }
+
+h1 {
+    padding: 10px;
+    margin: 0 0 0px 0;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    filter: brightness(1.1);
+}
+
+#form-wrapper {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    padding: 0 10%;
+    transform: translateY(-60%);
+    overflow: auto;
+}
+
+form {
+    padding: 30px 30px 20px 30px;
+    letter-spacing: 1.3px;
+}
+
+    form * {
+        display: block;
+        width: 100%;
+    }
+
+    form label {
+        margin-bottom: 30px;
+    }
+
+    form .field-name {
+        margin-bottom: 4px;
+        font-size: 20px;
+    }
+
+    form input:not([type=submit]) {
+        padding: 5px;
+        color: var(--themeWhite);
+        background-color: transparent;
+        border: none;
+        border-bottom: solid var(--themeWhite) 2px;
+        font-size: 16px;
+        letter-spacing: 1.1px;
+    }
+
+    form #btn-wrapper {
+        position: relative;
+        text-align: center;
+    }
+
+        form #btn-wrapper input[type=submit] {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        form #btn-wrapper #ajax-loader-wrapper {
+            position: absolute;
+            top: 0;
+            height: 43px;
+        }
+
+            form #btn-wrapper #ajax-loader-wrapper #ajax-loader-icon {
+                left: 10px;
+                right: auto;
+                width: 30px;
+                height: 30px;
+            }
+
+#error-wrapper {
+    height: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+    #error-wrapper .fas {
+        margin-right: 6px;
+        font-size: 22px;
+    }

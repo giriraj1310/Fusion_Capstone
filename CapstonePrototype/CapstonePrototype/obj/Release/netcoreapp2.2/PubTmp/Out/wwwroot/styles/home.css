@@ -1,0 +1,122 @@
+﻿.gm-fullscreen-control {
+    display: none;
+}
+
+.gm-style-iw {
+    animation: showInfoWindow 0.3s forwards;
+}
+
+.gm-style-iw-t::after {
+    animation: showInfoWindowPoint 0.4s forwards;
+}
+
+@keyframes showInfoWindow {
+    from {
+        transform: translate(-50%, 0) scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -100%) scale(1);
+        opacity: 0.9;
+    }
+}
+
+@keyframes showInfoWindowPoint {
+    from {
+        transform: translate(-50%, 0) rotate(-45deg) scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+        opacity: 0.9;
+    }
+}
+
+#custom-controls {
+    display: none;
+}
+
+    #custom-controls.active {
+        display: block;
+    }
+
+#btn-center-position {
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    color: #555555;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: gray 0 1px 4px;
+    outline: none;
+    font-size: 25px;
+}
+
+    #btn-center-position:active {
+        background-color: skyblue;
+    }
+
+.business-info-window h2 {
+    margin: 0 0 10px 0;
+}
+
+.business-info-window h4 {
+    margin: 8px 0;
+}
+
+    .business-info-window h4 .fas {
+        width: 20px;
+        padding-right: 5px;
+        text-align: center;
+    }
+
+.business-info-window button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inner-scene {
+    background-color: rgba(255, 255, 255, 0.94);
+}
+
+    .inner-scene #view-business-header {
+        padding: 50px 10px;
+        text-align: center;
+        background-color: rgba(4, 127, 242, 0.8);
+    }
+
+        .inner-scene #view-business-header h2 {
+            margin: 0 0 10px;
+            font-size: 30px;
+        }
+
+    .inner-scene #view-business-body {
+        padding: 50px 50px 20px 50px;
+        margin: 0;
+    }
+
+        .inner-scene #view-business-body ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+            .inner-scene #view-business-body ul li {
+                margin: 0 0 50px 0;
+            }
+
+                .inner-scene #view-business-body ul li .fas {
+                    margin-right: 20px;
+                    transform: scale(1.8);
+                }
+
+        .inner-scene #view-business-body button {
+            width: 100%;
+        }

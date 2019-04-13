@@ -1,0 +1,14 @@
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\bin\Debug\netcoreapp2.2\CapstonePrototypeAPI.deps.json
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\bin\Debug\netcoreapp2.2\CapstonePrototypeAPI.runtimeconfig.json
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\bin\Debug\netcoreapp2.2\CapstonePrototypeAPI.runtimeconfig.dev.json
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\bin\Debug\netcoreapp2.2\CapstonePrototypeAPI.dll
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.csproj.CoreCompileInputs.cache
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.RazorAssemblyInfo.cache
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.RazorAssemblyInfo.cs
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.AssemblyInfoInputs.cache
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.AssemblyInfo.cs
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.RazorTargetAssemblyInfo.cache
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.csprojAssemblyReference.cache
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\bin\Debug\netcoreapp2.2\CapstonePrototypeAPI.pdb
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.dll
+C:\Users\cucci\Desktop\Sheridan\Y3-S1\C# .NET\Capstone\CapstonePrototype\CapstonePrototypeAPI\obj\Debug\netcoreapp2.2\CapstonePrototypeAPI.pdb

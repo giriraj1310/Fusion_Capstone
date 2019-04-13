@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Capstone Prototype</title>
+    <link href="~/styles/_layout.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/scripts/capstoneWebAPI.js"></script>
+</head>
+<body>
+    <h1 id="scene-title" class="theme-blue-bg theme-white-fg"></h1>
+
+    <div id="scene">
+        @RenderBody()
+    </div>
+
+    <div id="inner-scenes-wrapper"></div>
+
+    <div id="ajax-loader-wrapper" class="theme-white-bg">
+        <div id="ajax-loader-icon"></div>
+    </div>
+
+    <footer class="theme-blue-bg">
+        <a asp-action="Home" class="nav-button" id="home"><i class="fas fa-home theme-white-fg"></i></a>
+        <a asp-action="SavedBusinesses" class="nav-button" id="saved-businesses"><i class="fas fa-building theme-white-fg"></i></a>
+        <a asp-action="Notifications" class="nav-button" id="notifications"><i class="fas fa-bell theme-white-fg"></i></a>
+        <a asp-action="Profile" class="nav-button" id="profile"><i class="fas fa-user theme-white-fg"></i></a>
+    </footer>
+
+    <script src="~/scripts/_layout.js"></script>
+</body>
+</html>

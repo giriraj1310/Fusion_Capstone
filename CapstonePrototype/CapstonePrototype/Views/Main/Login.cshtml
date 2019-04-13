@@ -1,0 +1,49 @@
+﻿@model LoginCredentials
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="~/styles/_layout.css" />
+    <link rel="stylesheet" type="text/css" href="~/styles/login.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/font-awesome/css/all.min.css" />
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/scripts/capstoneWebAPI.js"></script>
+</head>
+<body class="theme-blue-bg theme-white-fg">
+    <h1 class="theme-blue-bg">Capstone Prototype</h1>
+
+    <div id="form-wrapper">
+        <form asp-action="Login" method="post">
+            <label>
+                <span class="field-name">@Html.DisplayNameFor(m => m.Email)</span>
+                <input asp-for="Email" id="txt-email" />
+            </label>
+            <label>
+                <span class="field-name">@Html.DisplayNameFor(m => m.Password)</span>
+                <input asp-for="Password" type="password" id="txt-password" />
+            </label>
+
+            <div id="btn-wrapper">
+                <div id="ajax-loader-wrapper">
+                    <div id="ajax-loader-icon"></div>
+                </div>
+                <input class="theme-orange-bg theme-white-fg" type="submit" value="Login" />
+            </div>
+        </form>
+        <div id="error-wrapper">
+            <i class="fas"></i>
+            <span></span>
+        </div>
+    </div>
+
+    <script src="~/scripts/login.js"></script>
+    <script src="~/scripts/_layout.js"></script>
+</body>
+</html>
